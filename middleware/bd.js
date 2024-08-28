@@ -1,7 +1,6 @@
 const {Pool} = require('pg');
 const {user} = require('../config');
 const axios = require('axios');
-const { use } = require('../router/user_routs');
 const pool = new Pool({
     user:'postgres',
     host:'localhost',
@@ -25,7 +24,8 @@ const connect = async(req,res,next)=>{
     var creat = [user.ip, user.ip, 'user'];
     try {
         await pool.connect();
-        const result = await pool.query(`SELECT * FROM public.donstroiokna WHERE ip_user = ${user.ip}`);
+        const result = await pool.query(`SELECT * FROM public.donstroiokna WHERE id = ${user.ip}`);
+        await result;
         if(result.rows.length-1 > 0 ){
             await result.rows.forEach(row => {
                 user.id = row['id'];
@@ -49,6 +49,7 @@ const connect = async(req,res,next)=>{
     }
 };
 
+const basket = async(req,res,next)=>{};
 module.exports = {
     connect:connect
 };
