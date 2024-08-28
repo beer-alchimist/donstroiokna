@@ -1,6 +1,7 @@
 const {Pool} = require('pg');
 const {user} = require('../config');
 const axios = require('axios');
+const { use } = require('../router/user_routs');
 const pool = new Pool({
     user:'postgres',
     host:'localhost',
@@ -21,21 +22,23 @@ const connect = async(req,res,next)=>{
     .catch(error => {
         console.log(error);
     });
-    var creat = [toString(user.ip), 'user'];
+    var creat = [user.ip, user.ip, 'user'];
     try {
         await pool.connect();
-        const result = await pool.query(`SELECT * FROM public.donstroiokna WHERE ip = ${toString(user.ip)}`);
+        const result = await pool.query(`SELECT * FROM public.donstroiokna WHERE ip_user = ${user.ip}`);
         if(result.rows.length-1 > 0 ){
             await result.rows.forEach(row => {
                 user.id = row['id'];
                 user.status = row['status'];
+                user.user_new = 'old_user';
             });
             await next();
         }else{
-            await pool.query('INSERT INTO public.donstroiokna (ip, status) VALUES($1,$2)', (creat), async(err,res)=>{
+            await pool.query('INSERT INTO public.donstroiokna (id, ip_user, status) VALUES($1,$2,$3)', (creat), async(err,res)=>{
                 if(err){
                     await console.log(err);
                 }else{
+                    user.user_new = 'new_user';
                     await console.log('query surself');
                     await next();
                 };
