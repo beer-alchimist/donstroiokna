@@ -11,4 +11,9 @@ router.get(`/id:${user.id}`, async (req, res) => {
     await res.send(`Ваш id = ${user.id}, ip = ${user.ip}`);
 });
 
+router.get(`/:${user.id}`, async (req, res) => {
+    await res.send(`Ваш id = ${user.id}, ip = ${user.ip}`);
+});
+
+
 module.exports = router;

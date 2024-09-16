@@ -3,7 +3,9 @@ const user = {
     id:0,
     status:'',
     user_new:'',
-    basket:''
+    basket:'',
+    login:'',
+    password:''
 };
 
 module.exports = {

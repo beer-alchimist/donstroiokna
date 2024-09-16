@@ -12,7 +12,7 @@ app.use(express.json());
 const user_router = require('./router/user_routs');
 app.use('/user', user_router);
 
-app.get('/', [controller.connect], async(req, res) => {
+app.get('/', [controller.connect,], async(req, res) => {
   await res.send('this index page');
 });
 
