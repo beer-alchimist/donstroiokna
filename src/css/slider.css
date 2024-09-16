@@ -1,3 +1,66 @@
-.container-ots{
-    background-color: bisque;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.slider {
+    position: relative;
+    max-width: 90%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background: white;
+    padding: 20px;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+.slide_content{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.slide_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_icon{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transform: translateY(-50%);    
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.active {
+    display: block;
 }
