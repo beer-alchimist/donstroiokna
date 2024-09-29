@@ -22,5 +22,3 @@ function changeSlide(direction) {
 
 // Показать первый слайд при загрузке
 showSlide(currentSlide);
-
-

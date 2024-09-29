@@ -1,0 +1,170 @@
+html{
+    font-size: 16px;
+}
+body{
+    font-family: "Roboto", system-ui;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+    min-width: 320px;
+}
+.navbar-nav a{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+.zadnyaa img{
+    object-fit: cover;
+    max-height: 300px;
+    max-width: 300px;
+}
+a:hover{
+    color: #000 !important;
+}
+.zadnyaa{
+    width: 100%;
+}
+.title{
+    max-width: 400px;
+    text-align: center;
+}
+.about{
+    max-width: 1000px;
+}
+.about-text{
+    font-size: 26px;
+}
+iframe{
+    width: 400px;
+    height: 232px;
+}
+.text{
+    font-size: 20px;
+}
+.fa-circle{
+    font-size: 8px;
+}
+.ours_works{
+    max-width: 1000px
+}
+.zakaz-inner{
+    display: flex;
+}
+.kartonka{
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+.kartonka img{
+    max-width: 200px;
+}
+
+/*Окно оформления №1*/
+.zakaz1{
+    border: #000 5px solid;
+    margin: 10px;
+}
+.zakaz1 h1{
+    text-align: center;
+}
+.zakaz1 button{
+    margin-left: 890px;
+}
+.zakaz1 .knopk{
+    margin: 10px;
+}
+/*Окно оформления №1*/
+
+/*Окно оформления №2*/
+.dveknopki{
+    display: flex;
+    margin: 10px;
+}
+.zakaz2{
+    border: #000 5px solid;
+    margin: 10px;
+}
+.zakaz2 h1{
+    text-align: center;
+}
+/*Окно оформления №2*/
+
+/*Окно оформления №3*/
+.zakaz3{
+    border: #000 5px solid;
+    margin: 10px;
+}
+.zakaz3 h1{
+    text-align: center;
+}
+/*Окно оформления №3*/
+
+/*Окно оформления №4*/
+.zakaz4{
+    border: #000 5px solid;
+    margin: 10px;
+}
+.zakaz4 h2{
+    text-align: center;
+}
+/*Окно оформления №4*/
+
+/*Окно оформления №5*/
+.zakaz5{
+    border: #000 5px solid;
+    margin: 10px;
+}
+.verh{
+    display: flex;
+}
+.niz{
+    display: flex;
+}
+.zakaz5 input{
+    padding: 5px;
+    margin: 10px;
+}
+.zakaz5 i{
+    font-size: 22px;
+}
+.zakaz5 h2{
+    text-align: center;
+}
+/*Окно оформления №5*/
+
+/*Окно оформления №6*/
+.zakaz6{
+    border: #000 5px solid;
+    margin: 10px;
+}
+.zakaz6 h1{
+    text-align: center;
+}
+.zakaz6 .zakaz-inner{
+    justify-content: center;
+}
+.zakaz6 i{
+    font-size: 200px;
+}
+/*Окно оформления №6*/
+
+footer{
+    display: flex !important;
+    background-color: #DC143C;
+    justify-content: center;
+}
+footer .map{
+    margin: 10px;
+}
+footer a{
+    color: white;
+    padding: 5px;
+    font-size: 24px;
+}
+footer p{
+    color: white;
+    padding: 5px;
+    font-size: 24px;
+}
