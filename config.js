@@ -3,9 +3,17 @@ const user = {
     id:0,
     status:'',
     user_new:'',
-    basket:'',
-    login:'',
-    password:''
+    user_basket:{
+        number:'',
+        mail:'',
+        addres:'',
+        basket:'',
+
+    },
+    cabinet:{
+        login:'',
+        password:''
+    }
 };
 
 module.exports = {

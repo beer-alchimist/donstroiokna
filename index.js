@@ -4,7 +4,7 @@ const app = express();
 require('dotenv').config;
 //node modul
 const port = process.env.port || 3000;
-
+const {user} = require('./config');
 const controller = require('./middleware/bd');
 
 app.use(express.json());
@@ -12,12 +12,12 @@ app.use(express.json());
 const user_router = require('./router/user_routs');
 app.use('/user', user_router);
 
-app.get('/', [controller.connect,], async(req, res) => {
-  await res.send('this index page');
+app.get('/', [controller.connect], async(req, res) => {
+  await res.redirect(`/user/id:${user.ip}`);
 });
 
 app.get('/catalog_window', [controller.connect], async(req,res)=>{
-  await res.send('this catalog_window page');
+  await res.redirect(`/user/id:${user.ip}/catalog_window`)
 });
 
 app.get('/catalog_color', [controller.connect], async(req,res)=>{

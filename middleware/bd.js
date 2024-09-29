@@ -26,7 +26,7 @@ const connect = async(req,res,next)=>{
         await pool.connect();
         const resul = await pool.query(`SELECT * FROM public.donstroiokna WHERE id = ${user.ip}`);
         await resul;
-        if(resul.rows.length-1 > 0 ){
+        if(resul.rows.length > 0 ){
             await resul.rows.forEach(row => {
                 user.id = row['id'];
                 user.status = row['status'];

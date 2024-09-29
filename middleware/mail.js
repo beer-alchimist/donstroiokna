@@ -1,4 +1,6 @@
 const nodemailer = require('nodemailer');
+const {user} = require('../config')
+
 var transporter = nodemailer.createTransport({
     host:'smtp.mail.ru',
     port:465,
@@ -9,9 +11,3 @@ var transporter = nodemailer.createTransport({
     },
 
 });
-
-var mailoption_manager = {
-    from:'',//mail.ru mail
-    to:'',//mail manager
-    subject:''//messager for manager
-}
