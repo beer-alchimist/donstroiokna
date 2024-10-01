@@ -2,242 +2,61 @@
 <html lang="ru">
   <head>
     <!-- Required meta tags -->
+    <title><%= name%></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="shortcut icon" href="./logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-
-    <title><%= name%></title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./slider.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" style = "background-color: #DC143C" >
-      <div class="container-fluid ">
-        <a class="navbar-brand" href="#"> <img src="./logo/лого.png" alt="" class="align-baseline"></a>
-        <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon p-1 text-light"><i class="fa-solid fa-bars"></i></span>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded-bottom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="">
+          <div class="d-flex justyfi-content-around">
+            <div>
+              <img src="./logo.svg" alt="" class="logo">
+            </div>
+            <div class="logo_text">
+              <span>ДонСтройОкна</span>
+            </div>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon text-light"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Остекление</a>
+              <a class="nav-link" href="catalog_window">Остекление окон</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Окраска окон</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link-primary" href="#">О компании</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Заказать звонок</a>
-            </li>
-            <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle btn-primary btn" href="#" data-bs-toggle="dropdown">Аккаунт <i class="fa-solid fa-user"></i></a>
-            <ul class="dropdown-menu bg-primary">
-              <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modal-entrance">Вход</a></li>
-              <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modal-regestration">Регистрация</a></li>
-            </ul>
-            <div class="modal fade" id="modal-entrance" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Вход</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    ...
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                  </div>
-                </div>
-              </div>
-            </div>
+              <a class="nav-link" href="user/catalog_window" tabindex="-1" aria-disabled="true">Окраска окнон</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div>
-      <img src="./work/Картонка на главной(КРОП).png" alt="" class="zadnyaa">
-    </div>
-    <div class="about mx-auto">
-      <h1 class="title mx-auto">О компании</h1>
-      <p class="about-text">
-        Компания «ДонСтройОкна» работает на рынке строительных ограждающих конструкций с 2015 года.
-        Сегодня, компания «ДонСтройОкна» имеет собственную производственную базу, на которой расположены 3 цеха по изготовлению алюминиевых, пвх и металлоконструкций.
-        Мы производим широкой спектр продукции: это металлопластиковые и алюминиевые конструкции, металлоизделия, большая номенклатура оборудования для металлопластикового производства, производство павильонов, собственная логистическая компания.
-      </p>
-    </div>
-    <div class="about mx-auto">
-      <h1 class="title mx-auto">Производство</h1>
-      <div class="d-flex">
-      <div>
-        <h2>Преимущества</h2>
-        <p class="text">
-          <br>
-          <i class="fa-solid fa-circle align-middle"></i> Автоматизированное современное оборудование. <br>
-          <br>
-          <i class="fa-solid fa-circle align-middle"></i> Соответствие ГОСТ и техтребованиям. <br> 
-          <br>
-          <i class="fa-solid fa-circle align-middle"></i> Сервис высшего уровня. <br>
-          <br>
-          <i class="fa-solid fa-circle align-middle"></i> Выполнение нестандартных заказов. <br>
-        </p>
-      </div>
-      <div class="ratio ratio-16x9 mx-auto mt-auto">
-        <iframe src="./video/video5465202496676839393.mp4?autoplay=0"></iframe>
-      </div>
-    </div>
-    </div>
-    <div class="ours_works mx-auto">
-      <h1 class="title mx-auto">Оформление заказа</h1>
-      <div class="zakaz1">
-        <h1>Выберете какое остекление вам требуется 1/6</h1>
-        <div class="zakaz-inner justify-content-center">
-          <div class="kartonka">
-            <a href="#"><img src="./work/image 20.png" alt=""><p>Лоджии</p></a>
-          </div>
-          <div class="kartonka">
-            <a href="#"><img src="./work/image 22.png" alt=""><p>Балконы</p></a>
-          </div>
-          <div class="kartonka">
-            <a href="#"><img src="./work/image 23.png" alt=""><p>Безрамочное остекление</p></a>
-          </div>
-          <div class="kartonka">
-            <a href="#"><img src="./work/image 24.png" alt=""><p>Пластиковые конструкции</p></a>
-          </div>
+    <div class="container-fluid mt-3">
+      <div class="row">
+        <div class="col-lg-12">
+          <img src="./baner_max.png" alt="" srcset="" class="banner">
         </div>
-        <div class="knopk"><button>Далее</button></div>
-      </div>
-      <div class="zakaz2">
-        <h1>Выбор конструкции 2/6</h1>
-        <div class="zakaz-inner justify-content-center">
-          <div class="kartonka">
-            <a href="#"><img src="./work/image 16.png" alt=""><p>Лоджии</p></a>
-          </div>
-          <div class="kartonka">
-            <a href="#"><img src="./work/image 17.png" alt=""><p>Балконы</p></a>
-          </div>
-          <div class="kartonka">
-            <a href="#"><img src="./work/image 18.png" alt=""><p>Безрамочное остекление</p></a>
-          </div>
-          <div class="kartonka">
-            <a href="#"><img src="./work/image 19.png" alt=""><p>Пластиковые конструкции</p></a>
-          </div>
-        </div>
-        <div class="dveknopki justify-content-between">
-          <div class="knopk1"><button>Далее</button></div>
-          <div class="height_and_wight">
-            <input type="text" placeholder="Высота">
-            <input type="text" placeholder="Ширина">
-          </div>
-          <div class="knopk2"><button>Назад</button></div>
-        </div>
-      </div>
-      <div class="zakaz3">
-        <h1>Выбор остекления 3/6</h1>
-        <div class="zakaz-inner justify-content-center">
-          <div class="kartonka">
-            <a href="#"><img src="./work/image 16.png" alt=""><p>Лоджии</p></a>
-          </div>
-          <div class="kartonka">
-            <a href="#"><img src="./work/image 17.png" alt=""><p>Балконы</p></a>
-          </div>
-          <div class="kartonka">
-            <a href="#"><img src="./work/image 18.png" alt=""><p>Безрамочное остекление</p></a>
-          </div>
-          <div class="kartonka">
-            <a href="#"><img src="./work/image 19.png" alt=""><p>Пластиковые конструкции</p></a>
-          </div>
-        </div>
-        <div class="dveknopki justify-content-between">
-          <div class="knopk1"><button>Далее</button></div>
-          <div class="knopk2"><button>Назад</button></div>
-        </div>
-      </div>
-      <div class="zakaz4">
-        <h2>Выберете какие работы по сварке каркаса вам нужны? 4/6</h2>
-        <div class="zakaz-inner justify-content-center">
-          <div class="kartonka">
-            <a href="#"><img src="./work/image 16.png" alt=""><p>Лоджии</p></a>
-          </div>
-          <div class="kartonka">
-            <a href="#"><img src="./work/image 17.png" alt=""><p>Балконы</p></a>
-          </div>
-          <div class="kartonka">
-            <a href="#"><img src="./work/image 18.png" alt=""><p>Безрамочное остекление</p></a>
-          </div>
-          <div class="kartonka">
-            <a href="#"><img src="./work/image 19.png" alt=""><p>Пластиковые конструкции</p></a>
-          </div>
-        </div>
-        <div class="dveknopki justify-content-between">
-          <div class="knopk1"><button>Далее</button></div>
-          <div class="knopk2"><button>Назад</button></div>
-        </div>
-        <p>Фигма откисла и я не смог посмотреть какие предложения по сварке</p>
-      </div>
-      <div class="zakaz5">
-        <h2>Укажите для оформления заказа следующие данные 5/6</h2>
-        <div class="zakaz-inner-konec">
-          <div class="verh justify-content-center">
-            <div class="user justify-content-center"><i class="fa-solid fa-user"></i> <input type="text" placeholder="ФИО"></div> 
-            <div class="phone justify-content-center"><input type="text" placeholder="Номер телефона"> <i class="fa-solid fa-phone"></i></div>
-          </div>
-          <div class="niz justify-content-center">
-            <div class="mail justify-content-center"><i class="fa-solid fa-envelope"></i> <input type="text" placeholder="Почта"></div>
-            <div class="place justify-content-center"><input type="text" placeholder="Адрес"> <i class="fa-solid fa-map"></i></div>
-          </div>
-        </div>
-        <div class="dveknopki justify-content-between">
-          <div class="knopk1"><button>Далее</button></div>
-          <div class="knopk2"><button>Назад</button></div>
-        </div>
-      </div>
-      <div class="zakaz6">
-        <h1>Заказ оформлен 6/6</h1>
-        <div class="zakaz-inner">
-          <i class="fa-solid fa-square-check"></i>
-        </div>
-        <div class="dveknopki justify-content-between">
-          <div class="knopk1"><button>Далее</button></div>
-          <div class="knopk2"><button>Назад</button></div>
+        <div class="baner_text">
+          <span>TEXT</span>
         </div>
       </div>
     </div>
-    <footer>
-      <div class="map">
-        <img src="https://placehold.co/500x300" alt="">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6"></div>
+        <div class="col-lg-6"></div>
       </div>
-      <div class="info">
-        <div>
-          <a class="" href="#">Остекление</a>
-          <a class="" href="#">Окраска окон</a>
-          <a class="" href="#">О компании</a>
-          <a class="" href="#">Заказать звонок</a>
-        </div>
-        <div class="info2">
-          <p>
-            Позвонить нам: +7999999999 <br>
-            Написать нам: sample@mail.com
-          </p>
-        </div>
-      </div>
-    </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/35cf7f656b.js" crossorigin="anonymous"></script>
     <script src="./js/slider.js"></script>
   </body>
 </html>

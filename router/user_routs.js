@@ -7,13 +7,11 @@ router.get(`/login`, async (req, res) => {
 });
 
 router.get(`/`, async (req, res) => {
-    res.render('index',{
-        name:'Главная'
-    });
+    await res.render('index',{name:'Главная'});
 });
 
-router.get(`/id:${user.id}/catalog_window`, async (req, res) => {
-    await res.send(`Ваш id = ${user.id}, ip = ${user.ip}`);
+router.get(`/catalog_window`, async (req, res) => {
+    await res.render('catalog_window',{name:'Остекление окон'});
 });
 
 router.get(`/id:${user.id}/catlog_color`, async (req, res) => {

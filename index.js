@@ -1,8 +1,6 @@
-//node modul
 const express = require('express');
 const app = express();
 require('dotenv').config;
-//node modul
 const port = process.env.port || 3000;
 const {user} = require('./config');
 const controller = require('./middleware/bd');
@@ -19,15 +17,15 @@ app.use(express.static(path.join(__dirname,'./src/video')));
 app.use(express.static(path.join(__dirname,'./src/js')));
 app.use(express.static(path.join(__dirname,'./views')));
 app.use(express.static(path.join(__dirname,'./middleware')));
-const user_router = require('./router/user_routs');
-app.use('/user', user_router);
+/*const user_router = require('./router/user_routs');
+app.use('/user', user_router);*/
 
-app.get('/', [controller.connect], async(req, res) => {
-  await res.redirect(`/user`);
+app.get(`/`, [controller.connect], async (req, res) => {
+  await res.render('index',{name:'Главная'});
 });
 
-app.get('/catalog_window', [controller.connect], async(req,res)=>{
-  await res.redirect(`/user/id:${user.ip}/catalog_window`)
+app.get(`/catalog_window`, [controller.connect], async (req, res) => {
+  await res.render('catalog_window',{name:'Остекление окон'});
 });
 
 app.get('/catalog_color', [controller.connect], async(req,res)=>{
