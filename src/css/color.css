@@ -1,0 +1,14 @@
+:root{
+    --navbar-bg-color:rgb(212, 72, 72);
+    --navbar-text-color:white;
+    --navbar-text-color-hover:rgb(113, 216, 218);
+    --baner-text-bg-color:rgba(255, 255, 255, 0.774);
+    --logo-color:#5669AE;
+    --bg-color-slider: white;
+    --box-shadow-slider:0 4px 10px rgba(0, 0, 0,);
+    --border-black:1px solid black;
+    --border-white:1px solid white;
+    --bg-color-hover-slider:rgb(163, 158, 158);
+    --bg-color-b-gradient-slider:rgb(2,0,36);
+    --bg-active-b-gradient-slider:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}

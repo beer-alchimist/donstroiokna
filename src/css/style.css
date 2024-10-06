@@ -3,33 +3,37 @@ body{
     height: 100%;
 }
 
-:root{
-    --navbar-bg-color:rgb(212, 72, 72);
-    --navbar-text-color:white;
-    --navbar-text-color-hover:rgb(113, 216, 218);
-}
-
 .banner{
     width: 100%;
-    height:100%;
-    border: 1px solid white;
-    border-radius: 10px;
+    height: 100%;
+    border-radius: 15px;
 }
-.baner_text{
+.baner_text_с{
     position: relative;
     margin-top: -15rem;
-    
+    background-color: var(--baner-text-bg-color);
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 33%;
 }
+.baner_text{
+    padding-left: 2rem;
+}
+.text_max{
+    font-size: 25px!important;
+}
+.mt-8{
+    margin-top: 15rem!important;
+}
+
 .logo{
     height: 40px;
     width: 100%;
 }
-
 .logo_text{
     color: var(--navbar-text-color) !important;
     padding-top: 5px;
 }
-
 .nav-link{
     font-size: 18px!important;
 }
@@ -42,4 +46,66 @@ body{
 }
 .nav-link:hover{
     color:var(--navbar-text-color-hover) !important;
+}
+
+.baner_priemysh{
+    border: 2px solid black;
+}
+.baner_constr{
+    border: 2px solid var(--logo-color);
+}
+
+.baner_priemysh, .baner_constr{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.icons_pr{
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 5rem;
+}
+
+.text_max_c{
+    font-size: 20px!important;
+    font-weight: bold!important;
+}
+.card_size{
+    height: 200px;
+}
+
+.thumb-wrap {
+    position: relative;
+    padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+    height: 0;
+    overflow: hidden;
+  }
+.thumb-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-width: 0;
+    outline-width: 0;
+}
+
+#video_rondo, #video_rondo_b{
+    display: none;
+}
+
+.map_ya, .fother_container{
+    width: 100%;
+    height: 400px;
+}
+
+.fother_container{
+    background-color: var(--logo-color);
+    height: 100px;
+}
+
+.fotther_p{
+    padding-top: 10px;
 }

@@ -1,17 +1,16 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-}
+
+
 
 .slider {
     position: relative;
-    max-width: 90%;
+    max-width: 87%;
     margin: auto;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    background: white;
+    background-color: var(--bg-color-slider);
     padding: 20px;
+    border: 1px solid var(--logo-color);
 }
 
 .slides {
@@ -19,7 +18,7 @@ body {
     transition: transform 0.5s ease-in-out;
 }
 
-.slide {
+.slide{
     min-width: 100%;
     box-sizing: border-box;
     padding: 20px;
@@ -37,20 +36,47 @@ body {
     justify-content: space-between;
 }
 
+
+
+.slide_btn{
+    position: absolute !important;
+    top: 50% !important;
+    background-color:var(--bg-color-slider);
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    transform: translateY(-50%);   
+    border: var(--border-black);
+    border-radius: 15px; 
+}
+
+.slide_btn:hover{
+    background-color: var(--bg-color-b-gradient-slider);
+    color: var(--bg-color-slider);
+    border: var(--border-white);
+}
+
+.slide_btn:active{
+    background: var(--bg-active-b-gradient-slider);
+    height: 50px;
+}
+
+.text_slide_conatiner{
+    width: 85%;
+    height: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.text_slide{
+    transform-origin: bottom right 60px;
+}
+
 .user_icon{
     height: 60px;
     width: 60px;
     border-radius: 50%;
-}
-
-.button_slider {
-    position: absolute;
-    top: 50%;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 10px;
-    cursor: pointer;
-    transform: translateY(-50%);    
 }
 
 .prev {

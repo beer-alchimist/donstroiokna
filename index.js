@@ -13,6 +13,8 @@ app.use(express.static(path.join(__dirname,`./src/css`)));
 app.use(express.static(path.join(__dirname,'./src/img')));
 app.use(express.static(path.join(__dirname,'./src/img/logo')));
 app.use(express.static(path.join(__dirname,'./src/img/work')));
+app.use(express.static(path.join(__dirname,'./src/img/profile')));
+app.use(express.static(path.join(__dirname,'.src/img/icons_priemychestwa')));
 app.use(express.static(path.join(__dirname,'./src/video')));
 app.use(express.static(path.join(__dirname,'./src/js')));
 app.use(express.static(path.join(__dirname,'./views')));
@@ -20,7 +22,7 @@ app.use(express.static(path.join(__dirname,'./middleware')));
 /*const user_router = require('./router/user_routs');
 app.use('/user', user_router);*/
 
-app.get(`/`, [controller.connect], async (req, res) => {
+app.get(`/`,/* [controller.connect],*/ async (req, res) => {
   await res.render('index',{name:'Главная'});
 });
 
