@@ -3,7 +3,7 @@
 
 .slider {
     position: relative;
-    max-width: 87%;
+    width: 100%;
     margin: auto;
     overflow: hidden;
     border-radius: 10px;
@@ -39,6 +39,8 @@
 
 
 .slide_btn{
+    height: 100px!important;
+    width: 58px!important;
     position: absolute !important;
     top: 50% !important;
     background-color:var(--bg-color-slider);
@@ -58,7 +60,7 @@
 
 .slide_btn:active{
     background: var(--bg-active-b-gradient-slider);
-    height: 50px;
+    height: 110px;
 }
 
 .text_slide_conatiner{

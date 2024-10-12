@@ -1,42 +1,465 @@
-@media (min-width:1100px) and (max-width:1200px){
+@media (min-width:2024px) and (max-width:2235px){
+    .baner_text_с{
+        width: 31%!important;
+        margin-top: -20rem!important;
+    }
+
+    .mt-8{
+        margin-top: 16rem!important;
+    }
+}
+
+@media (min-width:1862px) and (max-width:2023px){
+    .logo{
+        height: 50px!important;
+    }
+    .logo_text{
+        font-size: 31px!important;
+    }
+    .nav-link{
+        margin-top: 5px!important;
+        font-size: 29px!important;
+    }
+    .baner_text_с{
+        width: 28%!important;
+        margin-top: -22rem!important;
+    }
+
+    .text_heading{
+        font-size: 3rem!important;
+    }
+
     .text_max{
+        font-size:2rem!important;
+    }
+
+    .text_max_c{
+        font-size: 2rem!important;
+    }
+
+    .text_max_c_2{
+        font-size: 2rem!important;
+    }
+
+
+    .btn_shema_p{
+        font-size: 2rem!important;
+    }
+
+    .mt-8{
+        margin-top: 16rem!important;
+    }
+}
+
+@media (min-width:1808px) and (max-width:1862px){
+    .logo{
+        height: 50px!important;
+    }
+    .logo_text{
+        font-size: 31px!important;
+    }
+    .nav-link{
+        margin-top: 5px!important;
+        font-size: 29px!important;
+    }
+    .baner_text_с{
+        width: 28%!important;
+        margin-top: -22rem!important;
+    }
+
+    .text_heading{
+        font-size: 40px!important;
+    }
+
+    .btn_shema_p{
+        font-size: 27px!important;
+        height: 56px!important;
+    }
+
+    .text_max{
+        font-size:31px!important;
+    }
+
+    .slider{
+        height: 300px!important;
+    }
+
+    .text_max_c{
+        font-size: 31px!important;
+    }
+
+    .text_max_c_2{
+        font-size: 28px!important;
+    }
+
+    .mt-8{
+        margin-top: 16rem!important;
+    }
+}
+
+@media (min-width:1600px) and (max-width:1808px){
+    .logo{
+        height: 50px!important;
+    }
+    .logo_text{
+        font-size: 31px!important;
+    }
+    .nav-link{
+        margin-top: 5px!important;
+        font-size: 29px!important;
+    }
+    .baner_text_с{
+        width: 30%!important;
+        margin-top: -22rem!important;
+    }
+
+    .text_heading{
+        font-size: 40px!important;
+    }
+
+    .btn_shema_p{
+        font-size: 27px!important;
+        height: 56px!important;
+    }
+
+    .text_max{
+        font-size:31px!important;
+    }
+
+    .slider{
+        height: 300px!important;
+    }
+
+    .text_max_c{
+        font-size: 28px!important;
+        height: 235px!important;
+    }
+
+    .text_max_c_2{
+        font-size: 26px!important;
+    }
+
+    .mt-8{
+        margin-top: 16rem!important;
+    }
+}
+
+@media (min-width:1599px) and (max-width:1685px){
+    .logo{
+        height: 40px!important;
+    }
+    .logo_text{
+        font-size: 25px!important;
+    }
+    .nav-link{
+        margin-top: 5px!important;
+        font-size: 24px!important;
+    }
+    .baner_text_с{
+        width: 35%!important;
+        margin-top: -22rem!important;
+    }
+
+    .text_heading{
+        font-size: 40px!important;
+    }
+
+    .btn_shema_p{
+        font-size: 27px!important;
+        height: 56px!important;
+    }
+
+    .text_max{
+        font-size:31px!important;
+    }
+
+    .slider{
+        height: 300px!important;
+    }
+
+    .text_max_c{
+        font-size: 28px!important;
+        height: 235px!important;
+    }
+
+    .text_max_c_2{
+        font-size: 26px!important;
+    }
+
+    .mt-8{
+        margin-top: 16rem!important;
+    }
+}
+
+@media (min-width:1500px) and (max-width:1599px){
+    .logo{
+        height: 40px!important;
+    }
+    .logo_text{
+        font-size: 25px!important;
+    }
+    .nav-link{
+        margin-top: 5px!important;
+        font-size: 24px!important;
+    }
+    .baner_text_с{
+        width: 32%!important;
+        margin-top: -18rem!important;
+    }
+
+    .text_heading{
+        font-size: 37px!important;
+    }
+
+    .icons_pr{
+        height: 70px;
+        width: 70px;
+
+    }
+
+    .btn_shema_p{
+        font-size: 23px!important;
+        height: 46px!important;
+    }
+
+    .text_max{
+        font-size:25px!important;
+    }
+
+    .slider{
+        height: 300px!important;
+    }
+
+    .text_max_c{
+        font-size: 23px!important;
+        height: 235px!important;
+    }
+
+    .text_max_c_2{
+        font-size: 22px!important;
+    }
+
+    .mt-8{
+        margin-top: 16rem!important;
+    }
+    .card_size{
+        height: 230px!important;
+    }
+
+    .fother_container{
+        height: 134px!important;
+    }
+}
+
+
+@media (min-width:1283px) and (max-width:1499px){
+    .logo{
+        height: 34px!important;
+    }
+    .logo_text{
+        font-size: 21px!important;
+    }
+    .nav-link{
+        margin-top: 5px!important;
         font-size: 20px!important;
     }
-    .baner_text_c{
-        margin-top: -10rem!important;
+    .baner_text_с{
+        width: 29%!important;
+        margin-top: -18rem!important;
     }
-    .mt-8{
-        margin-top: 10rem!important;
-    }
-}
 
-@media (min-width:1000px) and (max-width:1100px){
-    .text_max{
+    .text_heading{
+        font-size: 31px!important;
+    }
+
+    .icons_pr{
+        height: 70px;
+        width: 70px;
+
+    }
+
+    .btn_shema_p{
         font-size: 20px!important;
+        height: 42px!important;
     }
-    .baner_text_c{
-        margin-top: -8rem!important;
+
+    .text_max{
+        font-size:22px!important;
     }
+
+    .slider{
+        height: 240px!important;
+    }
+
+    .text_max_c{
+        font-size: 23px!important;
+        height: 235px!important;
+    }
+
+    .text_max_c_2{
+        font-size: 22px!important;
+    }
+
     .mt-8{
-        margin-top: 10rem!important;
+        margin-top: 16rem!important;
+    }
+    .card_size{
+        height: 240px!important;
+    }
+
+    .fother_container{
+        height: 134px!important;
+    }
+    
+    .slide_btn{
+        height: 80px!important;
+    }
+    .fother_container{
+        height: 110px!important;
+    }
+    .map_ya{
+        height: 250px!important;
     }
 }
 
-@media (min-width:800px) and (max-width:1000px){
-    .text_max{
+@media (min-width:1100px) and (max-width:1283px){
+    .logo{
+        height: 30px!important;
+    }
+    .logo_text{
+        font-size: 19px!important;
+    }
+    .nav-link{
+        margin-top: 5px!important;
+        font-size: 17px!important;
+    }
+    .baner_text_с{
+        width: 28%!important;
+        margin-top: -14rem!important;
+    }
+
+    .text_heading{
+        font-size: 28px!important;
+    }
+
+    .icons_pr{
+        height: 60px;
+        width: 60px;
+
+    }
+
+    .btn_shema_p{
         font-size: 20px!important;
+        height: 42px!important;
     }
-    .baner_text_c{
-        margin-top: -4rem!important;
-    }
-    .mt-8{
-        margin-top: 10rem!important;
-    }
-}
 
-@media (min-width:250px) and (max-width:800px){
     .text_max{
-        font-size: 14px!important;
+        font-size:19px!important;
+    }
+
+    .slider{
+        height: 220px!important;
+    }
+
+    .text_max_c{
+        font-size: 21px!important;
+        /*height: 235px!important;*/
+    }
+
+    .text_max_c_2{
+        font-size: 19px!important;
+    }
+
+    .mt-8{
+        margin-top: 11rem!important;
+    }
+    .card_size{
+        height: 215px!important;
+    }
+
+    .fother_container{
+        height: 134px!important;
+    }
+    
+    .slide_btn{
+        height: 60px!important;
+    }
+    .fother_container{
+        height: 95px!important;
+    }
+    .map_ya{
+        height: 250px!important;
     }
 }
 
+/*Доделать этот размер*/
+@media (min-width:900px) and (max-width:1150px){
+    .logo{
+        height: 30px!important;
+    }
+    .logo_text{
+        font-size: 18px!important;
+    }
+    .nav-link{
+        margin-top: 5px!important;
+        font-size: 17px!important;
+    }
+    .baner_text_с{
+        width: 30%!important;
+        margin-top: -14rem!important;
+    }
+
+    .text_heading{
+        font-size: 28px!important;
+    }
+
+    .icons_pr{
+        height: 60px;
+        width: 60px;
+
+    }
+
+    .btn_shema_p{
+        font-size: 20px!important;
+        height: 42px!important;
+    }
+
+    .text_max{
+        font-size:19px!important;
+    }
+
+    .slider{
+        height: 220px!important;
+    }
+
+    .text_max_c{
+        font-size: 21px!important;
+        /*height: 235px!important;*/
+    }
+
+    .text_max_c_2{
+        font-size: 19px!important;
+    }
+
+    .mt-8{
+        margin-top: 11rem!important;
+    }
+    .card_size{
+        height: 215px!important;
+    }
+
+    .fother_container{
+        height: 134px!important;
+    }
+    
+    .slide_btn{
+        height: 60px!important;
+    }
+    .fother_container{
+        height: 95px!important;
+    }
+    .map_ya{
+        height: 250px!important;
+    }
+}
+/*Доделать этот размер*/
