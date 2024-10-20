@@ -374,7 +374,7 @@
         margin-top: 11rem!important;
     }
     .card_size{
-        height: 215px!important;
+        height: 240px!important;
     }
 
     .fother_container{
@@ -392,21 +392,21 @@
     }
 }
 
-/*Доделать этот размер*/
-@media (min-width:900px) and (max-width:1150px){
+@media (min-width:1078px) and (max-width:1150px){
     .logo{
         height: 30px!important;
+        width: 30px!important;
     }
     .logo_text{
-        font-size: 18px!important;
+        font-size: 17px!important;
     }
     .nav-link{
         margin-top: 5px!important;
-        font-size: 17px!important;
+        font-size: 16px!important;
     }
     .baner_text_с{
         width: 30%!important;
-        margin-top: -14rem!important;
+        margin-top: -12rem!important;
     }
 
     .text_heading{
@@ -420,7 +420,7 @@
     }
 
     .btn_shema_p{
-        font-size: 20px!important;
+        font-size: 16px!important;
         height: 42px!important;
     }
 
@@ -429,7 +429,7 @@
     }
 
     .slider{
-        height: 220px!important;
+        height: 200px!important;
     }
 
     .text_max_c{
@@ -442,10 +442,10 @@
     }
 
     .mt-8{
-        margin-top: 11rem!important;
+        margin-top: 9rem!important;
     }
     .card_size{
-        height: 215px!important;
+        height: 240px!important;
     }
 
     .fother_container{
@@ -454,12 +454,1164 @@
     
     .slide_btn{
         height: 60px!important;
+        width: 2rem!important;
     }
     .fother_container{
-        height: 95px!important;
+        height: 92px!important;
     }
     .map_ya{
-        height: 250px!important;
+        height: 200px!important;
     }
 }
-/*Доделать этот размер*/
+
+@media (min-width:1054px) and (max-width:1078px){
+    .logo{
+        height: 30px!important;
+        width: 30px!important;
+    }
+    .logo_text{
+        font-size: 17px!important;
+    }
+    .nav-link{
+        margin-top: 5px!important;
+        font-size: 16px!important;
+    }
+    .baner_text_с{
+        width: 33%!important;
+        margin-top: -12rem!important;
+    }
+
+    .text_heading{
+        font-size: 28px!important;
+    }
+
+    .icons_pr{
+        height: 60px;
+        width: 60px;
+
+    }
+
+    .btn_shema_p{
+        font-size: 16px!important;
+        height: 42px!important;
+    }
+
+    .text_max{
+        font-size:19px!important;
+    }
+
+    .slider{
+        height: 200px!important;
+    }
+
+    .text_max_c{
+        font-size: 21px!important;
+        /*height: 235px!important;*/
+    }
+
+    .text_max_c_2{
+        font-size: 19px!important;
+    }
+
+    .mt-8{
+        margin-top: 9rem!important;
+    }
+    .card_size{
+        height: 240px!important;
+    }
+
+    .fother_container{
+        height: 134px!important;
+    }
+    
+    .slide_btn{
+        height: 60px!important;
+        width: 2rem!important;
+    }
+    .fother_container{
+        height: 92px!important;
+    }
+    .map_ya{
+        height: 200px!important;
+    }
+}
+
+@media (min-width:992px) and (max-width:1054px){
+    .logo{
+        height: 30px!important;
+        width: 30px!important;
+    }
+    .logo_text{
+        font-size: 17px!important;
+    }
+    .nav-link{
+        margin-top: 5px!important;
+        font-size: 16px!important;
+    }
+    .baner_text_с{
+        width: 33%!important;
+        margin-top: -12rem!important;
+    }
+
+    .text_heading{
+        font-size: 28px!important;
+    }
+
+    .icons_pr{
+        height: 60px;
+        width: 60px;
+
+    }
+
+    .btn_shema_p{
+        font-size: 16px!important;
+        height: 42px!important;
+    }
+
+    .text_max{
+        font-size:19px!important;
+    }
+
+    .slider{
+        height: 200px!important;
+    }
+
+    .text_max_c{
+        font-size: 21px!important;
+        /*height: 235px!important;*/
+    }
+
+    .text_max_c_2{
+        font-size: 19px!important;
+    }
+
+    .mt-8{
+        margin-top: 9rem!important;
+    }
+    .card_size{
+        height: 280px!important;
+    }
+
+    .fother_container{
+        height: 134px!important;
+    }
+    
+    .slide_btn{
+        height: 60px!important;
+        width: 2rem!important;
+    }
+    .fother_container{
+        height: 92px!important;
+    }
+    .map_ya{
+        height: 200px!important;
+    }
+}
+
+@media (min-width:857px) and (max-width:992px){
+    .logo{
+        height: 30px!important;
+        width: 30px!important;
+    }
+    .logo_text{
+        font-size: 17px!important;
+    }
+    .nav-link{
+        margin-top: 5px!important;
+        font-size: 16px!important;
+    }
+    .baner_text_с{
+        width: 38%!important;
+        margin-top: -12rem!important;
+    }
+
+    .text_heading{
+        font-size: 25px!important;
+    }
+
+    .icons_pr{
+        height: 60px;
+        width: 60px;
+
+    }
+
+    .btn_shema_p{
+        font-size: 16px!important;
+        height: 42px!important;
+    }
+
+    .text_max{
+        font-size:19px!important;
+    }
+
+    .slider{
+        height: 200px!important;
+    }
+
+    .text_max_c{
+        font-size: 21px!important;
+        /*height: 235px!important;*/
+    }
+
+    .text_max_c_2{
+        font-size: 19px!important;
+    }
+
+    .mt-8{
+        margin-top: 9rem!important;
+    }
+    .card_size{
+        height: 200px!important;
+    }
+
+    .fother_container{
+        height: 134px!important;
+    }
+    
+    .slide_btn{
+        height: 60px!important;
+        width: 2rem!important;
+    }
+    .fother_container{
+        height: 92px!important;
+    }
+    .map_ya{
+        height: 200px!important;
+    }
+}
+
+@media (min-width:780px) and (max-width:857px){
+    .logo{
+        height: 30px!important;
+        width: 30px!important;
+    }
+    .logo_text{
+        font-size: 17px!important;
+    }
+    .nav-link{
+        margin-top: 5px!important;
+        font-size: 16px!important;
+    }
+    .baner_text_с{
+        width: 38%!important;
+        margin-top: -10rem!important;
+    }
+
+    .text_heading{
+        font-size: 25px!important;
+    }
+
+    .icons_pr{
+        height: 45px;
+        width: 45px;
+
+    }
+
+    .btn_shema_p{
+        font-size: 16px!important;
+        height: 42px!important;
+    }
+
+    .text_max{
+        font-size:17px!important;
+    }
+
+    .slider{
+        height: 180px!important;
+    }
+
+    .text_max_c{
+        font-size: 18px!important;
+        /*height: 235px!important;*/
+    }
+
+    .text_max_c_2{
+        font-size: 17px!important;
+    }
+
+    .mt-8{
+        margin-top: 7rem!important;
+    }
+    .card_size{
+        height: 200px!important;
+    }
+
+    .fother_container{
+        height: 134px!important;
+    }
+    
+    .slide_btn{
+        height: 60px!important;
+        width: 2rem!important;
+    }
+    .fother_container{
+        height: 92px!important;
+    }
+    .map_ya{
+        height: 200px!important;
+    }
+}
+
+@media (min-width:703px) and (max-width:780px){
+    .logo{
+        height: 30px!important;
+        width: 30px!important;
+    }
+    .logo_text{
+        font-size: 17px!important;
+    }
+    .nav-link{
+        margin-top: 5px!important;
+        font-size: 16px!important;
+    }
+    .baner_text_с{
+        width: 42%!important;
+        margin-top: -10rem!important;
+    }
+
+    .text_heading{
+        font-size: 25px!important;
+    }
+
+    .icons_pr{
+        height: 45px;
+        width: 45px;
+
+    }
+
+    .btn_shema_p{
+        font-size: 16px!important;
+        height: 42px!important;
+    }
+
+    .text_max{
+        font-size:17px!important;
+    }
+
+    .slider{
+        height: 140px!important;
+    }
+
+    .text_max_c{
+        font-size: 18px!important;
+        /*height: 235px!important;*/
+    }
+
+    .text_max_c_2{
+        font-size: 17px!important;
+    }
+
+    .mt-8{
+        margin-top: 7rem!important;
+    }
+    .card_size{
+        height: 190px!important;
+    }
+
+    .fother_container{
+        height: 134px!important;
+    }
+    
+    .slide_btn{
+        height: 60px!important;
+        width: 2rem!important;
+    }
+    .fother_container{
+        height: 92px!important;
+    }
+    .map_ya{
+        height: 200px!important;
+    }
+}
+
+@media (min-width:600px) and (max-width:703px){
+    .logo{
+        height: 30px!important;
+        width: 30px!important;
+    }
+    .logo_text{
+        font-size: 17px!important;
+    }
+    .nav-link{
+        margin-top: 5px!important;
+        font-size: 16px!important;
+    }
+    .baner_text_с{
+        width: 45%!important;
+        margin-top: -8rem!important;
+    }
+
+    .text_heading{
+        font-size: 22px!important;
+    }
+
+    .icons_pr{
+        height: 45px;
+        width: 45px;
+
+    }
+
+    .btn_shema_p{
+        font-size: 16px!important;
+        height: 42px!important;
+    }
+
+    .text_max{
+        font-size:17px!important;
+    }
+
+    .slider{
+        height: 140px!important;
+    }
+
+    .text_max_c{
+        font-size: 18px!important;
+        /*height: 235px!important;*/
+    }
+
+    .text_max_c_2{
+        font-size: 17px!important;
+    }
+
+    .mt-8{
+        margin-top: 5rem!important;
+    }
+    .card_size{
+        height: 190px!important;
+    }
+
+    .fother_container{
+        height: 134px!important;
+    }
+    
+    .slide_btn{
+        height: 60px!important;
+        width: 2rem!important;
+    }
+    .fother_container{
+        height: 92px!important;
+    }
+    .map_ya{
+        height: 200px!important;
+    }
+}
+
+@media (min-width:663px) and (max-width:692px){
+    .logo{
+        height: 30px!important;
+        width: 30px!important;
+    }
+    .logo_text{
+        font-size: 17px!important;
+    }
+    .nav-link{
+        margin-top: 5px!important;
+        font-size: 16px!important;
+    }
+    .baner_text_с{
+        width: 45%!important;
+        margin-top: -8rem!important;
+    }
+
+    .text_heading{
+        font-size: 22px!important;
+    }
+
+    .icons_pr{
+        height: 45px;
+        width: 45px;
+
+    }
+
+    .btn_shema_p{
+        font-size: 16px!important;
+        height: 42px!important;
+    }
+
+    .text_max{
+        font-size:17px!important;
+    }
+
+    .slider{
+        height: 140px!important;
+    }
+
+    .text_max_c{
+        font-size: 17px!important;
+        /*height: 235px!important;*/
+    }
+
+    .text_max_c_2{
+        font-size: 16px!important;
+    }
+
+    .mt-8{
+        margin-top: 5rem!important;
+    }
+    .card_size{
+        height: 210px!important;
+    }
+
+    .fother_container{
+        height: 134px!important;
+    }
+    
+    .slide_btn{
+        height: 60px!important;
+        width: 2rem!important;
+    }
+    .fother_container{
+        height: 92px!important;
+    }
+    .map_ya{
+        height: 200px!important;
+    }
+}
+
+@media (min-width:637px) and (max-width:663px){
+    .logo{
+        height: 30px!important;
+        width: 30px!important;
+    }
+    .logo_text{
+        font-size: 17px!important;
+    }
+    .nav-link{
+        margin-top: 5px!important;
+        font-size: 16px!important;
+    }
+    .baner_text_с{
+        width: 45%!important;
+        margin-top: -8rem!important;
+    }
+
+    .text_heading{
+        font-size: 20px!important;
+    }
+
+    .icons_pr{
+        height: 35px;
+        width: 35px;
+
+    }
+
+    .btn_shema_p{
+        font-size: 15px!important;
+        height: 38px!important;
+    }
+
+    .text_max{
+        font-size:16px!important;
+    }
+
+    .slider{
+        height: 140px!important;
+    }
+
+    .text_max_c{
+        font-size: 16px!important;
+        /*height: 235px!important;*/
+    }
+
+    .text_max_c_2{
+        font-size: 15px!important;
+    }
+
+    .mt-8{
+        margin-top: 5rem!important;
+    }
+    .card_size{
+        height: 170px!important;
+    }
+
+    .fother_container{
+        height: 134px!important;
+    }
+    
+    .slide_btn{
+        height: 60px!important;
+        width: 2rem!important;
+    }
+    .fother_container{
+        height: 92px!important;
+    }
+    .map_ya{
+        height: 180px!important;
+    }
+}
+
+@media (min-width:594px) and (max-width:637px){
+    .logo{
+        height: 30px!important;
+        width: 30px!important;
+    }
+    .logo_text{
+        font-size: 17px!important;
+    }
+    .nav-link{
+        margin-top: 5px!important;
+        font-size: 16px!important;
+    }
+    .baner_text_с{
+        width: 50%!important;
+        margin-top: -8rem!important;
+    }
+
+    .text_heading{
+        font-size: 20px!important;
+    }
+
+    .icons_pr{
+        height: 35px;
+        width: 35px;
+
+    }
+
+    .btn_shema_p{
+        font-size: 15px!important;
+        height: 38px!important;
+    }
+
+    .text_max{
+        font-size:15px!important;
+    }
+
+    .slider{
+        height: 140px!important;
+    }
+
+    .text_max_c{
+        font-size: 16px!important;
+        /*height: 235px!important;*/
+    }
+
+    .text_max_c_2{
+        font-size: 15px!important;
+    }
+
+    .mt-8{
+        margin-top: 5rem!important;
+    }
+    .card_size{
+        height: 195px!important;
+    }
+
+    .fother_container{
+        height: 134px!important;
+    }
+    
+    .slide_btn{
+        height: 60px!important;
+        width: 2rem!important;
+    }
+    .fother_container{
+        height: 92px!important;
+    }
+    .map_ya{
+        height: 180px!important;
+    }
+}
+
+@media (min-width:575px) and (max-width:594px){
+    .logo{
+        height: 30px!important;
+        width: 30px!important;
+    }
+    .logo_text{
+        font-size: 17px!important;
+    }
+    .nav-link{
+        margin-top: 5px!important;
+        font-size: 16px!important;
+    }
+    .baner_text_с{
+        width: 50%!important;
+        margin-top: -8rem!important;
+    }
+
+    .text_heading{
+        font-size: 20px!important;
+    }
+
+    .icons_pr{
+        height: 35px;
+        width: 35px;
+
+    }
+
+    .btn_shema_p{
+        font-size: 15px!important;
+        height: 38px!important;
+    }
+
+    .text_max{
+        font-size:15px!important;
+    }
+
+    .slider{
+        height: 140px!important;
+    }
+
+    .text_max_c{
+        font-size: 15px!important;
+        /*height: 235px!important;*/
+    }
+
+    .text_max_c_2{
+        font-size: 14px!important;
+    }
+
+    .mt-8{
+        margin-top: 5rem!important;
+    }
+    .card_size{
+        height: 195px!important;
+    }
+
+    .fother_container{
+        height: 134px!important;
+    }
+    
+    .slide_btn{
+        height: 60px!important;
+        width: 2rem!important;
+    }
+    .fother_container{
+        height: 92px!important;
+    }
+    .map_ya{
+        height: 180px!important;
+    }
+}
+
+@media (min-width:540px) and (max-width:575px){
+    .logo{
+        height: 30px!important;
+        width: 30px!important;
+    }
+    .logo_text{
+        font-size: 17px!important;
+    }
+    .nav-link{
+        margin-top: 5px!important;
+        font-size: 16px!important;
+    }
+    .baner_text_с{
+        width: 50%!important;
+        margin-top: -7rem!important;
+    }
+
+    .text_heading{
+        font-size: 20px!important;
+    }
+
+    .icons_pr{
+        height: 35px;
+        width: 35px;
+
+    }
+
+    .btn_shema_p{
+        font-size: 15px!important;
+        height: 38px!important;
+    }
+
+    .text_max{
+        font-size:15px!important;
+    }
+
+    .slider{
+        height: 140px!important;
+    }
+
+    .text_max_c{
+        font-size: 15px!important;
+        /*height: 235px!important;*/
+    }
+
+    .text_max_c_2{
+        font-size: 14px!important;
+    }
+
+    .mt-8{
+        margin-top: 5rem!important;
+    }
+    .card_size{
+        height: 120px!important;
+    }
+
+    .fother_container{
+        height: 134px!important;
+    }
+    
+    .slide_btn{
+        height: 60px!important;
+        width: 2rem!important;
+    }
+    .fother_container{
+        height: 92px!important;
+    }
+    .map_ya{
+        height: 180px!important;
+    }
+}
+
+@media (min-width:506px) and (max-width:540px){
+    .logo{
+        height: 30px!important;
+        width: 30px!important;
+    }
+    .logo_text{
+        font-size: 17px!important;
+    }
+    .nav-link{
+        margin-top: 5px!important;
+        font-size: 16px!important;
+    }
+    .baner_text_с{
+        width: 60%!important;
+        margin-top: -7rem!important;
+    }
+
+    .text_heading{
+        font-size: 20px!important;
+    }
+
+    .icons_pr{
+        height: 35px;
+        width: 35px;
+
+    }
+
+    .btn_shema_p{
+        font-size: 15px!important;
+        height: 38px!important;
+    }
+
+    .text_max{
+        font-size:15px!important;
+    }
+
+    .slider{
+        height: 140px!important;
+    }
+
+    .text_max_c{
+        font-size: 15px!important;
+        /*height: 235px!important;*/
+    }
+
+    .text_max_c_2{
+        font-size: 14px!important;
+    }
+
+    .mt-8{
+        margin-top: 5rem!important;
+    }
+    .card_size{
+        height: 120px!important;
+    }
+
+    .fother_container{
+        height: 134px!important;
+    }
+    
+    .slide_btn{
+        height: 60px!important;
+        width: 2rem!important;
+    }
+    .fother_container{
+        height: 92px!important;
+    }
+    .map_ya{
+        height: 180px!important;
+    }
+}
+
+@media (min-width:456px) and (max-width:506px){
+    .logo{
+        height: 30px!important;
+        width: 30px!important;
+    }
+    .logo_text{
+        font-size: 17px!important;
+    }
+    .nav-link{
+        margin-top: 5px!important;
+        font-size: 16px!important;
+    }
+    .baner_text_с{
+        width: 60%!important;
+        margin-top: -7rem!important;
+    }
+
+    .text_heading{
+        font-size: 20px!important;
+    }
+
+    .icons_pr{
+        height: 35px;
+        width: 35px;
+        display: none!important;
+    }
+
+    .btn_shema_p{
+        font-size: 15px!important;
+        height: 38px!important;
+    }
+
+    .text_max{
+        font-size:15px!important;
+    }
+
+    .slider{
+        height: 140px!important;
+    }
+
+    .text_max_c{
+        font-size: 15px!important;
+        /*height: 235px!important;*/
+    }
+
+    .text_max_c_2{
+        font-size: 14px!important;
+    }
+
+    .mt-8{
+        margin-top: 5rem!important;
+    }
+    .card_size{
+        height: 120px!important;
+    }
+
+    .fother_container{
+        height: 134px!important;
+    }
+    
+    .slide_btn{
+        height: 60px!important;
+        width: 2rem!important;
+    }
+    .fother_container{
+        height: 92px!important;
+    }
+    .map_ya{
+        height: 180px!important;
+    }
+}
+
+@media (min-width:371px) and (max-width:456px){
+    .logo{
+        height: 30px!important;
+        width: 30px!important;
+    }
+    .logo_text{
+        font-size: 17px!important;
+    }
+    .nav-link{
+        margin-top: 5px!important;
+        font-size: 16px!important;
+    }
+    .baner_text_с{
+        width: 75%!important;
+        margin-top: -5rem!important;
+    }
+
+    .text_heading{
+        font-size: 20px!important;
+    }
+
+    .icons_pr{
+        height: 35px;
+        width: 35px;
+        display: none!important;
+    }
+
+    .btn_shema_p{
+        font-size: 15px!important;
+        height: 38px!important;
+    }
+
+    .text_max{
+        font-size:15px!important;
+    }
+
+    .slider{
+        height: 140px!important;
+    }
+
+    .text_max_c{
+        font-size: 15px!important;
+        /*height: 235px!important;*/
+    }
+
+    .text_max_c_2{
+        font-size: 14px!important;
+    }
+
+    .mt-8{
+        margin-top: 3rem!important;
+    }
+    .card_size{
+        height: 120px!important;
+    }
+
+    .fother_container{
+        height: 134px!important;
+    }
+    
+    .slide_btn{
+        height: 60px!important;
+        width: 2rem!important;
+    }
+    .fother_container{
+        height: 92px!important;
+    }
+    .map_ya{
+        height: 180px!important;
+    }
+}
+
+@media (min-width:355px) and (max-width:371px){
+    .logo{
+        height: 30px!important;
+        width: 30px!important;
+    }
+    .logo_text{
+        font-size: 17px!important;
+    }
+    .nav-link{
+        margin-top: 5px!important;
+        font-size: 16px!important;
+    }
+    .baner_text_с{
+        width: 100%!important;
+        margin-top: -5rem!important;
+    }
+
+    .text_heading{
+        font-size: 20px!important;
+    }
+
+    .icons_pr{
+        height: 35px;
+        width: 35px;
+        display: none!important;
+    }
+
+    .btn_shema_p{
+        font-size: 15px!important;
+        height: 38px!important;
+    }
+
+    .text_max{
+        font-size:15px!important;
+    }
+
+    .slider{
+        height: 140px!important;
+    }
+
+    .text_max_c{
+        font-size: 15px!important;
+        /*height: 235px!important;*/
+    }
+
+    .text_max_c_2{
+        font-size: 14px!important;
+    }
+
+    .mt-8{
+        margin-top: 3rem!important;
+    }
+    .card_size{
+        height: 120px!important;
+    }
+
+    .fother_container{
+        height: 134px!important;
+    }
+    
+    .slide_btn{
+        height: 60px!important;
+        width: 2rem!important;
+    }
+    .fother_container{
+        height: 92px!important;
+    }
+    .map_ya{
+        height: 180px!important;
+    }
+}
+
+@media (min-width:200px) and (max-width:355px){
+    .logo{
+        height: 30px!important;
+        width: 30px!important;
+    }
+    .logo_text{
+        font-size: 17px!important;
+    }
+    .nav-link{
+        margin-top: 5px!important;
+        font-size: 16px!important;
+    }
+    .baner_text_с{
+        width: 100%!important;
+        margin-top: -5rem!important;
+    }
+
+    .text_heading{
+        font-size: 20px!important;
+    }
+
+    .icons_pr{
+        height: 35px;
+        width: 35px;
+        display: none!important;
+    }
+
+    .btn_shema_p{
+        font-size: 15px!important;
+        height: 38px!important;
+    }
+
+    .text_max{
+        font-size:15px!important;
+    }
+
+    .slider{
+        height: 140px!important;
+    }
+
+    .text_max_c{
+        font-size: 14px!important;
+        /*height: 235px!important;*/
+    }
+
+    .text_max_c_2{
+        font-size: 14px!important;
+    }
+
+    .mt-8{
+        margin-top: 3rem!important;
+    }
+    .card_size{
+        height: 140px!important;
+    }
+
+    .fother_container{
+        height: 134px!important;
+    }
+    
+    .slide_btn{
+        height: 60px!important;
+        width: 2rem!important;
+    }
+    .fother_container{
+        height: 92px!important;
+    }
+    .map_ya{
+        height: 180px!important;
+    }
+}
