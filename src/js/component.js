@@ -1,3 +1,8 @@
+class component{
+    static display(id){
+        console.log(this.parentNode.id(id));
+    }
+}
 function rondo_s(id){
     switch (id){
         case 'shema_rondo':{
@@ -16,10 +21,10 @@ function rondo_s(id){
         }
     }
 }
-
+component.display('shema_rondo');
 let currentSlide = 0;
-const windowInnerWidth = window.innerWidth
-console.log(windowInnerWidth);
+/*const windowInnerWidth = window.innerWidth
+console.log(windowInnerWidth);*/
 function showSlide(index) {
     const slides = document.querySelectorAll('.slide');
     if (index >= slides.length) {

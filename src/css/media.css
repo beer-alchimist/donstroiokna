@@ -7,18 +7,23 @@
     .mt-8{
         margin-top: 16rem!important;
     }
+
+    .fother_container{
+        height: 130px!important;
+    }
 }
 
 @media (min-width:1862px) and (max-width:2023px){
     .logo{
-        height: 50px!important;
+        height: 45px!important;
     }
     .logo_text{
-        font-size: 31px!important;
+        font-size: 22px!important;
+        padding-top: 8px!important;
     }
     .nav-link{
         margin-top: 5px!important;
-        font-size: 29px!important;
+        font-size: 21px!important;
     }
     .baner_text_с{
         width: 28%!important;
@@ -48,6 +53,10 @@
 
     .mt-8{
         margin-top: 16rem!important;
+    }
+
+    .fother_container{
+        height: 130px!important;
     }
 }
 
@@ -149,11 +158,11 @@
         height: 40px!important;
     }
     .logo_text{
-        font-size: 25px!important;
+        font-size: 19px!important;
     }
     .nav-link{
         margin-top: 5px!important;
-        font-size: 24px!important;
+        font-size: 18px!important;
     }
     .baner_text_с{
         width: 35%!important;
@@ -161,11 +170,11 @@
     }
 
     .text_heading{
-        font-size: 40px!important;
+        font-size: 25px!important;
     }
 
     .btn_shema_p{
-        font-size: 27px!important;
+        font-size: 18px!important;
         height: 56px!important;
     }
 
@@ -196,11 +205,11 @@
         height: 40px!important;
     }
     .logo_text{
-        font-size: 25px!important;
+        font-size: 19px!important;
     }
     .nav-link{
         margin-top: 5px!important;
-        font-size: 24px!important;
+        font-size: 18px!important;
     }
     .baner_text_с{
         width: 32%!important;
@@ -257,11 +266,11 @@
         height: 34px!important;
     }
     .logo_text{
-        font-size: 21px!important;
+        font-size: 19px!important;
     }
     .nav-link{
         margin-top: 5px!important;
-        font-size: 20px!important;
+        font-size: 18px!important;
     }
     .baner_text_с{
         width: 29%!important;
@@ -269,7 +278,7 @@
     }
 
     .text_heading{
-        font-size: 31px!important;
+        font-size: 25px!important;
     }
 
     .icons_pr{

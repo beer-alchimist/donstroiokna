@@ -18,7 +18,7 @@ body{
 }
 
 .text_heading{
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 
@@ -26,23 +26,23 @@ body{
     padding-left: 2rem;
 }
 .text_max{
-    font-size: 39px!important;
+    font-size: 35px!important;
 }
 .mt-8{
     margin-top: 18rem;
 }
 
 .logo{
-    height: 60px;
+    height: 45px;
     width: 100%;
 }
 .logo_text{
     color: var(--navbar-text-color) !important;
     padding-top: 5px;
-    font-size: 35px;
+    font-size: 23px;
 }
 .nav-link{
-    font-size: 30px!important;
+    font-size: 22px!important;
 }
 
 .bg-light{
@@ -76,11 +76,11 @@ body{
 }
 
 .text_max_c{
-    font-size: 38px!important;
+    font-size: 30px!important;
     font-weight: bold!important;
 }
 .text_max_c_2{
-    font-size: 35px;
+    font-size: 28px;
 }
 .card_size{
     height: 280px;
