@@ -1,24 +1,20 @@
 class component{
     static display(id){
-        console.log(this.parentNode.id(id));
-    }
-}
-function rondo_s(id){
-    switch (id){
-        case 'shema_rondo':{
-            document.getElementById(id).style.display = 'none';
-            document.getElementById(id+'_b').style.display = 'none';
-            document.getElementById('video_rondo_b').style.display = 'block';
-            document.getElementById('video_rondo').style.display = 'block';             
-            break;
-        }
-        case 'video_rondo':{
-            document.getElementById(id).style.display = 'none';
-            document.getElementById(id+'_b').style.display = 'none';
-            document.getElementById('shema_rondo_b').style.display = 'block';
-            document.getElementById('shema_rondo').style.display = 'block';             
-            break;
-        }
+        var main_el = document.getElementById(id).parentNode;
+        //main_el.childNodes[1].id.;
+        //document.getElementById(main_el.childNodes[1].id).style.display = 'none';
+        var all_element = main_el.childNodes;
+        all_element.forEach(row=>{
+            //document.getElementById(`${ids}`).style.display = 'none';
+            if(row.id!== null || row.id!== undefined){
+                if(id == row.id){
+                    document.getElementById(row.id).style.display = 'none';
+                }else{
+                    document.getElementById(row.id).style.display = 'block';
+                }
+            }
+        });
+        console.log(main_el.childNodes);
     }
 }
 component.display('shema_rondo');

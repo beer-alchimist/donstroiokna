@@ -65,11 +65,12 @@
         height: 50px!important;
     }
     .logo_text{
-        font-size: 31px!important;
+        font-size: 22px!important;
+        padding-top: 8px!important;
     }
     .nav-link{
         margin-top: 5px!important;
-        font-size: 29px!important;
+        font-size: 21px!important;
     }
     .baner_text_с{
         width: 28%!important;
@@ -77,7 +78,7 @@
     }
 
     .text_heading{
-        font-size: 40px!important;
+        font-size:32px!important;
     }
 
     .btn_shema_p{
@@ -90,19 +91,22 @@
     }
 
     .slider{
-        height: 300px!important;
+        height: 200px!important;
     }
 
     .text_max_c{
-        font-size: 31px!important;
+        font-size: 25px!important;
     }
 
     .text_max_c_2{
-        font-size: 28px!important;
+        font-size: 23px!important;
     }
 
     .mt-8{
         margin-top: 16rem!important;
+    }
+    .card_size{
+        height: 220px!important;
     }
 }
 
@@ -111,11 +115,12 @@
         height: 50px!important;
     }
     .logo_text{
-        font-size: 31px!important;
+        font-size: 22px!important;
+        padding-top: 8px!important;
     }
     .nav-link{
         margin-top: 5px!important;
-        font-size: 29px!important;
+        font-size: 21px!important;
     }
     .baner_text_с{
         width: 30%!important;
@@ -123,7 +128,7 @@
     }
 
     .text_heading{
-        font-size: 40px!important;
+        font-size: 30px!important;
     }
 
     .btn_shema_p{
@@ -136,20 +141,22 @@
     }
 
     .slider{
-        height: 300px!important;
+        height: 250px!important;
     }
 
     .text_max_c{
-        font-size: 28px!important;
-        height: 235px!important;
+        font-size: 25px!important;
     }
 
     .text_max_c_2{
-        font-size: 26px!important;
+        font-size: 24px!important;
     }
 
     .mt-8{
         margin-top: 16rem!important;
+    }
+    .card_size{
+        height: 230px!important;
     }
 }
 
@@ -170,7 +177,7 @@
     }
 
     .text_heading{
-        font-size: 25px!important;
+        font-size: 32px!important;
     }
 
     .btn_shema_p{
@@ -179,24 +186,30 @@
     }
 
     .text_max{
-        font-size:31px!important;
+        font-size:28px!important;
     }
 
     .slider{
-        height: 300px!important;
+        height: 250px!important;
     }
 
     .text_max_c{
-        font-size: 28px!important;
-        height: 235px!important;
+        font-size: 22px!important;
     }
 
     .text_max_c_2{
-        font-size: 26px!important;
+        font-size: 21px!important;
+    }
+
+    .card_size{
+        height: 240px!important;
     }
 
     .mt-8{
         margin-top: 16rem!important;
+    }
+    .fother_container{
+        height: 130px!important;
     }
 }
 
@@ -206,6 +219,7 @@
     }
     .logo_text{
         font-size: 19px!important;
+        padding-top: 8px!important;
     }
     .nav-link{
         margin-top: 5px!important;
