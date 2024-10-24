@@ -1,26 +1,21 @@
 class component{
     static display(id){
-        var main_el = document.getElementById(id).parentNode;
-        //main_el.childNodes[1].id.;
-        //document.getElementById(main_el.childNodes[1].id).style.display = 'none';
-        var all_element = main_el.childNodes;
-        all_element.forEach(row=>{
-            //document.getElementById(`${ids}`).style.display = 'none';
-            if(row.id!== null || row.id!== undefined){
+        var main_el = document.getElementById(id).parentNode.childNodes;
+        main_el.forEach(row=>{
+            if(row.id !== undefined){
+                var el = document.getElementById(row.id);
                 if(id == row.id){
-                    document.getElementById(row.id).style.display = 'none';
+                    el.style.display = 'none';
                 }else{
-                    document.getElementById(row.id).style.display = 'block';
+                    el.style.display = 'block';
                 }
             }
-        });
-        console.log(main_el.childNodes);
+        })
     }
 }
-component.display('shema_rondo');
+//component.display('shema_rondo');
+
 let currentSlide = 0;
-/*const windowInnerWidth = window.innerWidth
-console.log(windowInnerWidth);*/
 function showSlide(index) {
     const slides = document.querySelectorAll('.slide');
     if (index >= slides.length) {
