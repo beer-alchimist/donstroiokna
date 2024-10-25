@@ -1,4 +1,5 @@
 class component{
+    count = 0;
     static display(id){
         var main_el = document.getElementById(id).parentNode.childNodes;
         main_el.forEach(row=>{
@@ -12,9 +13,14 @@ class component{
             }
         })
     }
+    static show(num){
+        const slides = document.querySelectorAll('.slide');
+        var a = num >= slides.length?0:num < 0?slides.length-1:num;
+        slides.forEach(slide=>{
+            slide.style.transform = `translateX(-${a * 100}%)`;
+        });
+    }
 }
-//component.display('shema_rondo');
-
 let currentSlide = 0;
 function showSlide(index) {
     const slides = document.querySelectorAll('.slide');
