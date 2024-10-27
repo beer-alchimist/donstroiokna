@@ -4,12 +4,7 @@ class component{
         var main_el = document.getElementById(id).parentNode.childNodes;
         main_el.forEach(row=>{
             if(row.id !== undefined){
-                var el = document.getElementById(row.id);
-                if(id == row.id){
-                    el.style.display = 'none';
-                }else{
-                    el.style.display = 'block';
-                }
+                return (id == row.id)?document.getElementById(row.id).style.display = 'none':document.getElementById(row.id).style.display = 'block';
             }
         })
     }
