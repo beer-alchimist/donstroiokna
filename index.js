@@ -26,16 +26,12 @@ app.get(`/`,/* [controller.connect],*/ async (req, res) => {
   await res.render('index',{name:'Главная'});
 });
 
-app.get(`/catalog_window`, [controller.connect], async (req, res) => {
+app.get(`/catalog_window`, /*[controller.connect],*/ async (req, res) => {
   await res.render('catalog_window',{name:'Остекление окон'});
 });
 
-app.get('/catalog_color', [controller.connect], async(req,res)=>{
-  await res.send('this catalog_color page');
-});
-
-app.get('/info_company', [controller.connect], async(req,res)=>{
-  await res.send('this info_company page');
+app.get('/catalog_color', /*[controller.connect],*/ async(req,res)=>{
+  await res.render('catalog_color',{name:'Окраска окон'});
 });
 
 app.get('/login', [], async(req,res)=>{});
