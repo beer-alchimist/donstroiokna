@@ -1,12 +1,13 @@
 var count = 0;
 class component{
-    static display(id){
+    static display(id, corzina){
         var main_el = document.getElementById(id).parentNode.childNodes;
         main_el.forEach(row=>{
             if(row.id){
                 return (id == row.id)?document.getElementById(row.id).style.display = 'none':document.getElementById(row.id).style.display = 'block';
             }
         })
+        return corzina?console.log(main_el):corzina;
     }
     static show(num){
         num+=count;
