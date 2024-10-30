@@ -3,7 +3,7 @@ class component{
     static display(id){
         var main_el = document.getElementById(id).parentNode.childNodes;
         main_el.forEach(row=>{
-            if(row.id !== undefined){
+            if(row.id){
                 return (id == row.id)?document.getElementById(row.id).style.display = 'none':document.getElementById(row.id).style.display = 'block';
             }
         })

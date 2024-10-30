@@ -1,3 +1,6 @@
+@import url('./color.css');
+@import url('./style.css');
+@import url('./slider.css');
 @media (min-width:2024px) and (max-width:2235px){
     .baner_text_с{
         width: 31%!important;
