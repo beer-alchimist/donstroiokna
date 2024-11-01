@@ -348,7 +348,7 @@
     }
 }
 
-@media (min-width:1100px) and (max-width:1283px){
+@media (min-width:1101px) and (max-width:1283px){
     .logo{
         height: 30px!important;
     }
@@ -418,7 +418,7 @@
     }
 }
 
-@media (min-width:1078px) and (max-width:1100px){
+@media (min-width:1078px) and (max-width:1101px){
     .logo{
         height: 30px!important;
         width: 30px!important;
@@ -475,15 +475,12 @@
     }
 
     .fother_container{
-        height: 134px!important;
+        height: 150px!important;
     }
     
     .slide_btn{
         height: 60px!important;
         width: 2rem!important;
-    }
-    .fother_container{
-        height: 92px!important;
     }
     .map_ya{
         height: 200px!important;
@@ -547,15 +544,12 @@
     }
 
     .fother_container{
-        height: 134px!important;
+        height: 150px!important;
     }
     
     .slide_btn{
         height: 60px!important;
         width: 2rem!important;
-    }
-    .fother_container{
-        height: 92px!important;
     }
     .map_ya{
         height: 200px!important;
@@ -619,15 +613,11 @@
     }
 
     .fother_container{
-        height: 134px!important;
+        height: 150px!important;
     }
-    
     .slide_btn{
         height: 60px!important;
         width: 2rem!important;
-    }
-    .fother_container{
-        height: 92px!important;
     }
     .map_ya{
         height: 200px!important;
@@ -691,15 +681,12 @@
     }
 
     .fother_container{
-        height: 134px!important;
+        height: 280px!important;
     }
     
     .slide_btn{
         height: 60px!important;
         width: 2rem!important;
-    }
-    .fother_container{
-        height: 92px!important;
     }
     .map_ya{
         height: 200px!important;
@@ -763,15 +750,11 @@
     }
 
     .fother_container{
-        height: 134px!important;
-    }
-    
+        height: 280px!important;
+    }   
     .slide_btn{
         height: 60px!important;
         width: 2rem!important;
-    }
-    .fother_container{
-        height: 92px!important;
     }
     .map_ya{
         height: 200px!important;
@@ -835,15 +818,12 @@
     }
 
     .fother_container{
-        height: 134px!important;
+        height: 280px!important;
     }
     
     .slide_btn{
         height: 60px!important;
         width: 2rem!important;
-    }
-    .fother_container{
-        height: 92px!important;
     }
     .map_ya{
         height: 200px!important;
@@ -905,17 +885,12 @@
     .card_size{
         height: 190px!important;
     }
-
     .fother_container{
-        height: 134px!important;
-    }
-    
+        height: 280px!important;
+    }   
     .slide_btn{
         height: 60px!important;
         width: 2rem!important;
-    }
-    .fother_container{
-        height: 92px!important;
     }
     .map_ya{
         height: 200px!important;
@@ -977,17 +952,12 @@
     .card_size{
         height: 210px!important;
     }
-
     .fother_container{
-        height: 134px!important;
-    }
-    
+        height: 280px!important;
+    }   
     .slide_btn{
         height: 60px!important;
         width: 2rem!important;
-    }
-    .fother_container{
-        height: 92px!important;
     }
     .map_ya{
         height: 200px!important;
@@ -1025,41 +995,31 @@
         font-size: 15px!important;
         height: 38px!important;
     }
-
     .text_max{
         font-size:16px!important;
     }
-
     .slider{
         height: 140px!important;
     }
-
     .text_max_c{
         font-size: 16px!important;
         /*height: 235px!important;*/
     }
-
     .text_max_c_2{
         font-size: 15px!important;
     }
-
     .mt-8{
         margin-top: 5rem!important;
     }
     .card_size{
         height: 170px!important;
     }
-
     .fother_container{
-        height: 134px!important;
-    }
-    
+        height: 280px!important;
+    }   
     .slide_btn{
         height: 60px!important;
         width: 2rem!important;
-    }
-    .fother_container{
-        height: 92px!important;
     }
     .map_ya{
         height: 180px!important;
@@ -1123,15 +1083,12 @@
     }
 
     .fother_container{
-        height: 134px!important;
+        height: 280px!important;
     }
     
     .slide_btn{
         height: 60px!important;
         width: 2rem!important;
-    }
-    .fother_container{
-        height: 92px!important;
     }
     .map_ya{
         height: 180px!important;
@@ -1195,15 +1152,11 @@
     }
 
     .fother_container{
-        height: 134px!important;
+        height: 280px!important;
     }
-    
     .slide_btn{
         height: 60px!important;
         width: 2rem!important;
-    }
-    .fother_container{
-        height: 92px!important;
     }
     .map_ya{
         height: 180px!important;
@@ -1267,15 +1220,12 @@
     }
 
     .fother_container{
-        height: 134px!important;
+        height: 280px!important;
     }
     
     .slide_btn{
         height: 60px!important;
         width: 2rem!important;
-    }
-    .fother_container{
-        height: 92px!important;
     }
     .map_ya{
         height: 180px!important;
@@ -1339,15 +1289,12 @@
     }
 
     .fother_container{
-        height: 134px!important;
+        height: 280px!important;
     }
     
     .slide_btn{
         height: 60px!important;
         width: 2rem!important;
-    }
-    .fother_container{
-        height: 92px!important;
     }
     .map_ya{
         height: 180px!important;
@@ -1411,15 +1358,12 @@
     }
 
     .fother_container{
-        height: 134px!important;
+        height: 280px!important;
     }
     
     .slide_btn{
         height: 60px!important;
         width: 2rem!important;
-    }
-    .fother_container{
-        height: 92px!important;
     }
     .map_ya{
         height: 180px!important;
@@ -1483,15 +1427,12 @@
     }
 
     .fother_container{
-        height: 134px!important;
+        height: 320px!important;
     }
     
     .slide_btn{
         height: 60px!important;
         width: 2rem!important;
-    }
-    .fother_container{
-        height: 92px!important;
     }
     .map_ya{
         height: 180px!important;
@@ -1555,15 +1496,12 @@
     }
 
     .fother_container{
-        height: 134px!important;
+        height: 340px!important;
     }
     
     .slide_btn{
         height: 60px!important;
         width: 2rem!important;
-    }
-    .fother_container{
-        height: 92px!important;
     }
     .map_ya{
         height: 180px!important;
@@ -1627,15 +1565,12 @@
     }
 
     .fother_container{
-        height: 134px!important;
+        height: 380px!important;
     }
     
     .slide_btn{
         height: 60px!important;
         width: 2rem!important;
-    }
-    .fother_container{
-        height: 92px!important;
     }
     .map_ya{
         height: 180px!important;
