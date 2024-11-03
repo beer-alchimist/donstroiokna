@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 body{
     width: 100%;
     height: 100%;
@@ -81,6 +82,7 @@ body{
 }
 .text_max_c_2{
     font-size: 28px;
+    text-align: start;
 }
 .card_size{
     height: 280px;
@@ -126,4 +128,33 @@ body{
 
 .fotther_p{
     padding-top: 10px;
+}
+
+.star input{
+    display: none!important;
+}
+
+.star{
+    display: flex;
+    /*height: 15px;
+    width: 15px;*/
+    text-align: center;
+}
+
+.star label{
+    -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+    float: right;
+    font-size: 100%;
+    color: var(--color-bcg-border-star);
+    margin: 0 5px;
+    text-shadow: 1px 1px var(--color-bcg-border-star);
+}
+
+.star label:before{
+    content: '★';
 }
