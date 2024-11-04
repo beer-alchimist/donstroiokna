@@ -122,81 +122,168 @@
       <form action="./zakaz" class="dogovor_container" method="get">
         <div class="container-fluid" id="dogovor_1">
           <div class="row">
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 text_heading text-center">
+              <span>Выберете какое остекление вам требуется 1/6</span>
+            </div>
             <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-12 col-sm-12">
               <div>
-                  <input hidden type="checkbox" name="lodji" id="lodji">
-                  <label for="lodji">
-                    <img src="/img/baner_window/1.svg" class="baner_dogovor">
-                  </label>
+                  <img src="/img/baner_window/1.svg" class="baner_dogovor">
               </div>
               <div class="text_max_c_2 baner_dogovor_text">
-                <span>Остекление лоджи</span>
+                <input type="button" value="Остекление лоджи" id="btn_1_1" onclick="component.display('dogovor_1',true, id)" />
               </div>
             </div>
             <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-12 col-sm-12">
               <div>
-                  <input type="checkbox" name="lodji" id="lodji">
-                  <label for="lodji">
-                    <img src="/img/baner_window/2.svg" class="baner_dogovor">
-                  </label>
+                  <img src="/img/baner_window/2.svg" class="baner_dogovor">
               </div>
               <div class="text_max_c_2 baner_dogovor_text">
-                <span>Остекление балконов</span>
+                <input type="button" value="Остекление балконов" id="btn_1_2" onclick="component.display('dogovor_1',true, id)" />
               </div>
             </div>
             <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-12 col-sm-12">
               <div>
-                  <input hidden type="checkbox" name="lodji" id="lodji">
-                  <label for="lodji">
-                    <img src="/img/baner_window/3.svg" class="baner_dogovor">
-                  </label>
+                  <img src="/img/baner_window/3.svg" class="baner_dogovor">
               </div>
               <div class="text_max_c_2 baner_dogovor_text">
-                <span>Безрамочное остекление</span>
+                <input type="button" value="Безрамочное остекление" id="btn_1_3" onclick="component.display('dogovor_1',true, id)" />
               </div>
             </div>
             <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-12 col-sm-12">
               <div>
-                  <input hidden type="checkbox" name="lodji" id="lodji">
-                  <label for="lodji">
-                    <img src="/img/baner_window/4.svg" class="baner_dogovor">
-                  </label>
+                  <img src="/img/baner_window/4.svg" class="baner_dogovor">
               </div>
               <div class="text_max_c_2 baner_dogovor_text">
-                <span>Пластиковые конструкции</span>
+                  <input type="button" value="Пластиковые конструкции" id="btn_1_4" onclick="component.display('dogovor_1',true, id)" />
               </div>
             </div>
           </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid" id="dogovor_2">
           <div class="row">
-            <div class="col-xxl-12 col-xl-12 col-lg-12 col-sm-12"></div>
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 text_heading text-center">
+              <span>Выберете какое конструкцию и укажите ширину и высоту 2/6</span>
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-12 col-sm-12">
+              <div>
+                  <img src="/img/baner_window/2_1.svg" class="baner_dogovor">
+              </div>
+              <div class="text_max_c_2 baner_dogovor_text">
+                <input type="button" value="Вариант а" id="btn_2_1" onclick="component.display('dogovor_2',true, id)" />
+              </div>
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-12 col-sm-12">
+              <div>
+                  <img src="/img/baner_window/2_2.svg" class="baner_dogovor">
+              </div>
+              <div class="text_max_c_2 baner_dogovor_text">
+                <input type="button" value="Вариант б" id="btn_2_2" onclick="component.display('dogovor_2',true, id)" />
+              </div>
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-12 col-sm-12">
+              <div>
+                  <img src="/img/baner_window/2_3.svg" class="baner_dogovor">
+              </div>
+              <div class="text_max_c_2 baner_dogovor_text">
+                <input type="button" value="Вариант в" id="btn_2_3" onclick="component.display('dogovor_2',true, id)" />
+              </div>
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-12 col-sm-12">
+              <div>
+                  <img src="/img/baner_window/2_4.svg" class="baner_dogovor">
+              </div>
+              <div class="text_max_c_2 baner_dogovor_text">
+                  <input type="button" value="Вариант г" id="btn_2_4" onclick="component.display('dogovor_2',true, id)" />
+              </div>
+            </div>
           </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid" id="dogovor_3">
           <div class="row">
-            <div class="col-xxl-12 col-xl-12 col-lg-12 col-sm-12"></div>
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 text_heading text-center">
+              <span>Выберете вариант остекление 3/6</span>
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-12 col-sm-12">
+              <div>
+                  <img src="/img/baner_window/3_1.svg" class="baner_dogovor">
+              </div>
+              <div class="text_max_c_2 baner_dogovor_text">
+                <input type="button" value="Раздвижные алюминивые" id="btn_3_1" onclick="component.display('dogovor_3',true, id)" />
+              </div>
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-12 col-sm-12">
+              <div>
+                  <img src="/img/baner_window/3_2.svg" class="baner_dogovor">
+              </div>
+              <div class="text_max_c_2 baner_dogovor_text">
+                <input type="button" value="Раздвижные пластиковые" id="btn_3_2" onclick="component.display('dogovor_3',true, id)" />
+              </div>
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-12 col-sm-12">
+              <div>
+                  <img src="/img/baner_window/3_3.svg" class="baner_dogovor">
+              </div>
+              <div class="text_max_c_2 baner_dogovor_text">
+                <input type="button" value="Пластиковые окна" id="btn_3_3" onclick="component.display('dogovor_3',true, id)" />
+              </div>
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-12 col-sm-12">
+              <div>
+                  <img src="/img/baner_window/3_4.svg" class="baner_dogovor">
+              </div>
+              <div class="text_max_c_2 baner_dogovor_text">
+                  <input type="button" value="Панорамные окна" id="btn_3_4" onclick="component.display('dogovor_3',true, id)" />
+              </div>
+            </div>
           </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid" id="dogovor_4">
           <div class="row">
-            <div class="col-xxl-12 col-xl-12 col-lg-12 col-sm-12"></div>
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 text_heading text-center">
+              <span>Выбор сварки и каркаса</span>
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-12 col-sm-12">
+              <div>
+                  <img src="/img/baner_window/4_1.svg" class="baner_dogovor">
+              </div>
+              <div class="text_max_c_2 baner_dogovor_text">
+                <input type="button" value="Не нужно" id="btn_4_1" onclick="component.display('dogovor_4',true, id)" />
+              </div>
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-12 col-sm-12">
+              <div>
+                  <img src="/img/baner_window/4_2.svg" class="baner_dogovor">
+              </div>
+              <div class="text_max_c_2 baner_dogovor_text">
+                <input type="button" value="Общивка парапета" id="btn_4_2" onclick="component.display('dogovor_4',true, id)" />
+              </div>
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-12 col-sm-12">
+              <div>
+                  <img src="/img/baner_window/4_3.svg" class="baner_dogovor">
+              </div>
+              <div class="text_max_c_2 baner_dogovor_text">
+                <input type="button" value="Балкон с выносом" id="btn_4_3" onclick="component.display('dogovor_4',true, id)" />
+              </div>
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-12 col-sm-12">
+              <div>
+                  <img src="/img/baner_window/4_4.svg" class="baner_dogovor">
+              </div>
+              <div class="text_max_c_2 baner_dogovor_text">
+                  <input type="button" value="Независимая крыша" id="btn_4_4" onclick="component.display('dogovor_4',true, id)" />
+              </div>
+            </div>
           </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid" id="dogovor_5">
           <div class="row">
-            <div class="col-xxl-12 col-xl-12 col-lg-12 col-sm-12"></div>
-          </div>
-        </div>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-xxl-12 col-xl-12 col-lg-12 col-sm-12"></div>
-          </div>
-        </div>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-xxl-12 col-xl-12 col-lg-12 col-sm-12">
-              <input type="submit" value="Отправить заказ" id="send">
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 text_heading text-center">
+              <span>Ваш заказ</span>
+            </div>
+            <div class="co-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 text_heading text-center">
+              <div> 
+              </div>
             </div>
           </div>
         </div>

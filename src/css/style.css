@@ -191,6 +191,21 @@ body{
     text-align: center;
     width: 93%;
     height: 50px;
+    
+}
+
+
+.baner_dogovor_text input{
+    width: 90%;
+    border: none;
+    height: 100%;
     border-radius: 10px;
-    background-color: var(--baner-text-bg-color);
+}
+
+.baner_dogovor_text input:hover{
+    border: 4px solid var(--logo-color);
+}
+
+#dogovor_2, #dogovor_3, #dogovor_4{
+    display: none;
 }
