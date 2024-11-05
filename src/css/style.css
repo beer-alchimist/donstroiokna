@@ -209,3 +209,8 @@ body{
 #dogovor_2, #dogovor_3, #dogovor_4, #dogovor_5{
     display: none;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+}
