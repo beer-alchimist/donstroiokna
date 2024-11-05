@@ -278,12 +278,63 @@
         </div>
         <div class="container-fluid" id="dogovor_5">
           <div class="row">
-            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 text_heading text-center">
-              <span>Ваш заказ</span>
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12  text-center">
+              <span><input type="button" value="Ваш заказ" class="btn btn-outline-primary text_max_c" data-bs-toggle="modal" data-bs-target="#zakaz"></span>
             </div>
             <div class="co-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 text_heading text-center">
-              <div> 
+              <div>
+                <div>
+                  <span class="text_max_c_2">Фамилия</span>
+                </div>
+                <div>
+                  <input type="text" name="surname"/>
+                </div>
               </div>
+              <div>
+                <div>
+                  <span class="text_max_c_2">Имя</span>
+                </div>
+                <div>
+                  <input type="text" name="name"/>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <span class="text_max_c_2">Отчество</span>
+                </div>
+                <div>
+                  <input type="text" name="patronymic"/>
+                </div>
+              </div>
+            </div>
+            <div class="co-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 text_heading text-center">
+              <div>
+                <div>
+                  <span class="text_max_c_2">Адрес</span>
+                </div>
+                <div>
+                  <input type="text" name="addres"/>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <span class="text_max_c_2">Номер тел.</span>
+                </div>
+                <div>
+                  <input type="text" name="number"/>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <span class="text_max_c_2">Адрес эл. почты</span>
+                </div>
+                <div>
+                  <input type="text" name="email"/>
+                </div>
+              </div>
+            </div>
+            <div class="co-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 text_heading text-center">
+              <input type="submit" name="send_s" value="Отправить" class="btn btn-outline-success text_max_c">
             </div>
           </div>
         </div>
@@ -409,6 +460,21 @@
             <div>
               <span>Cб: 09:00 - 15:00</span>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="zakaz" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ваш заказ</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть">X</button>
+          </div>
+          <div class="modal-body" id="corzina">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Закрыть</button>
           </div>
         </div>
       </div>
