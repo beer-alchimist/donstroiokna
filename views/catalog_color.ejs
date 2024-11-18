@@ -17,9 +17,9 @@
             <div>
               <img src="/img/logo/logo.svg" alt="" class="logo">
             </div>
-            <div class="logo_text">
-              <span href="/">ДонСтройОкна</span>
-            </div>
+              <div class="logo_text">
+                <span>ДонСтройОкна</span>
+              </div>
           </div>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,6 +32,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/catalog_color" tabindex="-1" aria-disabled="true">Окраска окнон</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dogovor_container" data-bs-toggle="modal" data-bs-target="#zvonok">Заказать звонок</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/login" tabindex="-1" aria-disabled="true">Аккаунт</a>
@@ -469,6 +472,22 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Ваш заказ</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть">X</button>
+          </div>
+          <div class="modal-body" id="corzina">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Закрыть</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="zvonok" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Заказать звонок</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть">X</button>
           </div>
           <div class="modal-body" id="corzina">
